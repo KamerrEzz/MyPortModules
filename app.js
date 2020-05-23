@@ -40,6 +40,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+/*
 mongoose.connect(process.env.URLDB, {
   useCreateIndex: true,
   useNewUrlParser: true,
@@ -51,7 +52,7 @@ mongoose.connect(process.env.URLDB, {
 
   console.log('Base de Datos ONLINE');
 
-});
+});*/
 
 module.exports = app;
 
